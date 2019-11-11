@@ -16,15 +16,28 @@
 		"browser": true
 	},
 	"rules": {
-		"react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+		"react/jsx-filename-extension": [
+			1,
+			{
+				"extensions": [
+					".tsx"
+				]
+			}
+		],
 		"react/jsx-one-expression-per-line": "off",
 		"react/prop-types": "off",
 		"import/no-extraneous-dependencies": [
 			"error",
 			{
-				"devDependencies": ["test/**", ".config/webpack/**"],
+				"devDependencies": [
+					"test/**",
+					".config/webpack/**"
+				],
 				"optionalDependencies": false
 			}
-		]
+		],
+		"react/jsx-indent": "off",
+		"react/jsx-indent-props": "off",
+		"react/jsx-props-no-spreading": "off"
 	}
 }

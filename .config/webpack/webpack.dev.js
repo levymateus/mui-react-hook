@@ -28,7 +28,7 @@ module.exports = {
 	devServer: {
 		contentBase: path.resolve('assets'),
 		watchContentBase: true,
-		port: 49049,
+		port: 49052,
 		historyApiFallback: true,
 		hot: true,
 		open: true,

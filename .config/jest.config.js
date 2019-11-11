@@ -6,4 +6,9 @@ module.exports = {
 			tsConfig: './.config/tsconfig.json',
 		},
 	},
+	moduleFileExtensions: ['ts', 'tsx', 'js', 'scss'],
+	transform: {
+		'^.+\\.scss$': 'sass-jest',
+	},
+	// testRegex: '*\\.test\\.*\\.(tsx|js|scss)$',
 };
